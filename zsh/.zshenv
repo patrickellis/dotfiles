@@ -19,4 +19,6 @@ if [[ ( "$SHLVL" -eq 1 && ! -o LOGIN ) && -s $ZDOTDIR/.zprofile ]]; then
   source $ZDOTDIR/.zprofile
 fi
 
-plugins=(tmuxinator)
+# Disabled until we build familiarity with TMUX.
+# https://github.com/tmuxinator/tmuxinator/tree/master
+# plugins=(tmuxinator)

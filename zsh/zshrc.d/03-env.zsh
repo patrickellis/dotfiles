@@ -41,6 +41,7 @@ unset brew_location
 # export GREP_COLOR='1;32'
 export GREP_COLORS='mt=1;32'
 export LSCOLOR="Gxfxcxdxbxegedabagacad"
+export LS_COLORS='rs=0:no=00:mi=00:mh=00:ln=01;36:or=01;31:di=01;34:ow=04;01;34:st=34:tw=04;34:pi=01;33:so=01;33:do=01;33:bd=01;33:cd=01;33:su=01;35:sg=01;35:ca=01;35:ex=01;32:'
 
 # For Terminal.app
 export CLICOLOR=1
@@ -60,8 +61,14 @@ setopt    incappendhistory  # Immediately append to the history file, not just w
 # My bin directory
 add_to_path "$HOME/bin"
 
+# Go binaries
+export PATH=${PATH}:`go env GOPATH`/bin
+
 # Cargo
 export PATH="$HOME/.cargo/bin:$PATH"
+
+# ASDF shims
+export PATH="$HOME/.asdf/shims:$PATH"
 
 # Language
 # export LC_COLLATE=en_US.UTF-8

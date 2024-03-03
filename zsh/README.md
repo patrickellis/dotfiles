@@ -13,8 +13,8 @@ So, liberally borrowed, you could say.
 
 See:
 
- - zdotdir: https://github.com/getantidote/zdotdir
- - antidote: https://getantidote.github.io/
+- zdotdir: https://github.com/getantidote/zdotdir
+- antidote: https://getantidote.github.io/
 
 ## Debugging zsh startup time
 
@@ -31,3 +31,11 @@ time zsh -i -c ext
 ```
 
 3. Profit?
+
+# Profiling session 25/02/24
+
+1. Homebrew adds 0.15s to load time.
+
+2. Kubernetes adds 0.30s to load time.
+
+3. Python add 0.5s to load time.

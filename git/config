@@ -49,9 +49,9 @@
   editor = nvim
 # http://stackoverflow.com/questions/18257622/why-is-git-core-preloadindex-default-value-false
   preloadindex = true
-	excludesfile = /Users/pes28/.gitignore
-    editor = nvim
-    hooksPath = /Users/pes28/.git/hooks
+  excludesfile = /Users/pes28/.gitignore
+  editor = nvim
+  hooksPath = /Users/pes28/.git/hooks
 [color]
 	status = auto
 	branch = auto

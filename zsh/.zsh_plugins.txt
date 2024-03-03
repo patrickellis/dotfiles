@@ -62,7 +62,9 @@ mattmc3/zfunctions
 softmoth/zsh-vim-mode
 
 ### fish-like conf.d
-mattmc3/zshrc.d
+# Responsible for a 1s+ delay.
+ mattmc3/zshrc.d 
+
 
 ### fuzzy stuff
 # marlonrichert/zsh-autocomplete

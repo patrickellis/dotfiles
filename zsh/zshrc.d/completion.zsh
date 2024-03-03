@@ -12,7 +12,7 @@ zstyle ':completion:*' matcher-list '' \
 
 # Don't complete users. It's annoying.
 # See: https://unix.stackexchange.com/questions/57408/why-is-zsh-oh-my-zsh-completing-directories-that-dont-exist
-zstyle ':completion:*' users asgeo1 root ianchesal
+zstyle ':completion:*' users root pes28 patrickellis
 
 # Recommended for use with fzf-tab
 # See: https://github.com/Aloxaf/fzf-tab#configure

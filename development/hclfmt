@@ -1,0 +1,21 @@
+#!/bin/bash
+
+# Check if terragrunt is installed
+if ! command -v terragrunt &> /dev/null; then
+    echo "Terragrunt is not installed. Please install it and try again."
+    exit 1
+fi
+# Create a temporary file
+tmp_file=$(mktemp /tmp/input.XXXXXX)
+
+# Write stdin to the temporary file
+cat > "$tmp_file"
+
+# Format the input using terragrunt hclfmt with the temporary file
+terragrunt hclfmt --terragrunt-hclfmt-file "$tmp_file"
+
+# Print the formatted output
+cat "$tmp_file"
+
+# Remove the temporary file
+rm "$tmp_file"
