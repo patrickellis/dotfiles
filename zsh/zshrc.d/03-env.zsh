@@ -82,6 +82,9 @@ export PATH="$HOME/.asdf/shims:$PATH"
 # export LANGUAGE=en_US.UTF-8
 # export LESSCHARSET=utf-8
 
+
+# The next line updates PATH for the Google Cloud SDK.
+#if [ -f '/Users/pes28/Downloads/google-cloud-sdk 2/path.zsh.inc' ]; then . '/Users/pes28/Downloads/google-cloud-sdk 2/path.zsh.inc'; fi
 # VI MODE
 # autoload -z edit-command-line
 # le -N edit-command-line
