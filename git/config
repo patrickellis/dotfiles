@@ -51,7 +51,7 @@
   preloadindex = true
   excludesfile = /Users/pes28/.gitignore
   editor = nvim
-  hooksPath = /Users/pes28/.git/hooks
+# hooksPath = /Users/pes28/.git/hooks
 [color]
 	status = auto
 	branch = auto
