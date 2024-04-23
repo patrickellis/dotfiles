@@ -1,12 +1,12 @@
 # dotfiles
 
-[![forthebadge](https://forthebadge.com/images/badges/0-percent-optimized.svg)](https://forthebadge.com)
+![example](https://1ysb2nguma.execute-api.eu-central-1.amazonaws.com/Test/ci-status-gott-edeng-gatcli)
 
 My dotfiles. What else were you expecting?
 
 ## Use
 
-    mkdir -p ~/src
+    mkdr -p ~/src
     pushd ~/src
     git clone git@github.com:ianchesal/dotfiles.git
     cd dotfiles
